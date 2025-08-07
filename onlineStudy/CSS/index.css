@@ -1,8 +1,8 @@
-/* index.css是用来美化首页的 */
+/* index.css is used to style the homepage */
 * {
     margin: 0;
     padding: 0;
-    /* 內减模式 */
+    /* border-box sizing */
     box-sizing: border-box;
 }
 
@@ -26,13 +26,13 @@ body {
     background-color: #f3f5f7;
 }
 
-/* 版心 */
+/* layout container (wrapper) */
 .wrapper {
     width: 1200px;
     margin: 0 auto;
 }
 
-/* 头部 */
+/* header */
 .header {
     height: 42px;
     /* margin-top: 30px;
@@ -48,7 +48,7 @@ h1 {
     float: left;
 }
 
-/* 导航 */
+/* navigation */
 .nav {
     float: left;
     margin-left: 70px;
@@ -75,7 +75,7 @@ h1 {
     border-bottom: 2px solid #00a4ff;
 }
 
-/* 搜索 */
+/* search */
 .search {
     float: left;
     margin-left: 59px;
@@ -87,13 +87,13 @@ h1 {
 .search input {
     float: left;
     padding-left: 20px;
-    /* 左右加一起的尺寸要小于等于410 */
+    /* combined width should be <= 410px */
     width: 360px;
     height: 38px;
     border: 0;
 }
 
-/* 控制placeholder的样式 */
+/* placeholder styling */
 .search input::placeholder {
     font-size: 14px;
     color: #bfbfbf;
@@ -114,11 +114,11 @@ h1 {
     line-height: 42px;
 }
 .user img {
-    /* 调节图片垂直对齐方式, middle:居中 */
+/* adjust image vertical alignment, middle: center vertically */
     vertical-align: middle;
 }
 
-/* 轮播图 */
+/* carousel / banner */
 .banner {
     height: 420px;
     background-color: #1c036c;
@@ -139,7 +139,7 @@ h1 {
     height: 420px;
     background-color: rgba(0,0,0, 0.3);
 
-    /* 行高属于控制文字的属性, 能继承 */
+    /* line-height controls text vertically and is inheritable */
     line-height: 44px;
 }
 
@@ -208,7 +208,7 @@ h1 {
     line-height: 40px;
 }
 
-/* 精品推荐 */
+/* recommendation */
 .goods {
     margin-top: 8px;
     padding-left: 34px;
@@ -252,7 +252,7 @@ h1 {
     color: #00a4ff;
 }
 
-/* 精品课程 */
+/* courses */
 .box {
     margin-top: 35px;
 }
@@ -310,7 +310,7 @@ h1 {
     height: 155px;
 }
 
-/* 版权 */
+/* copyright */
 .footer {
     margin-top: 40px;
 
