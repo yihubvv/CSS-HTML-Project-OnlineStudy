@@ -2,6 +2,7 @@
 This is a webpage I developed using CSS and HTML.
 
 This page is not interactive since it is meant to demonstrate my ability in HTML and CSS.
+
 Here is how to run this page on your end:
 1. Open this folder VisualCode.
 2. Go to the index.html page.
