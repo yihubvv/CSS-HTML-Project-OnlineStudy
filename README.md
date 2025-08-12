@@ -15,6 +15,13 @@ Here is how to run this page on your end:
 
 Introduction:
 1. navigation bar:
-<img width="1913" height="102" alt="image" src="https://github.com/user-attachments/assets/27ea738a-4d2f-496d-9b9ff80f5c492da4"/>
+This section contains the logo of the website, link to other pages, a search bar, and user profile picture.
+
+<img width="1913" height="102" alt="image" src="https://github.com/user-attachments/assets/ff317106-0a07-4c4f-a042-af1471ece4e7" />
+
+When hovering over selections, it will be underlined:
+
+<img width="408" height="70" alt="image" src="https://github.com/user-attachments/assets/a7a2c23f-f9f5-4f07-b8cc-f27dac6730d3" />
+
 
 
